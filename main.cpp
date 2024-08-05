@@ -3,6 +3,7 @@
 using namespace std;
 
 int main() {
+//game
     default_random_engine lalo(time(nullptr));
     uniform_real_distribution<float> laloAttack(0.0f, 1.0f);
     string i = "";
